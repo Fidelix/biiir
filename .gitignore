@@ -1,0 +1,50 @@
+# Build #
+bin/
+docroot/
+vendor/
+node_modules/
+bower_components/
+.sass-cache/
+
+# Share IDE stuff, except these #
+.idea/
+.allow-devtools-edit
+Guardfile
+config.rb
+.orig
+target
+tmp
+bin
+*.swp
+out
+
+# Compiled source #
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Packages #
+# It's better to unpack these files and commit the raw source, git has its own
+# built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Logs and databases #
+*.log
+*.sql
+*.sqlite
+
+# OS generated files #
+.DS_Store*
+ehthumbs.db
+Icon?
+Thumbs.db
